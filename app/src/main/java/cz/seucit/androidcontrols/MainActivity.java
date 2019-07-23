@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClick_spinner(View view) {
         startActivity(new Intent(this, SpinnerActivity.class));
     }
+
+    public void onClick_seekBar(View view) {
+        startActivity(new Intent(this, SeekBarActivity.class));
+    }
 }
