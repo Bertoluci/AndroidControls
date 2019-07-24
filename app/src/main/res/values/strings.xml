@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidControls</string>
+    <string name="tv_pallete_containers">Containers</string>
+    <string name="tv_pallete_widgets">Widgets</string>
+    <string name="btn_spinner">Spinner</string>
+    <string name="btn_seek_bar">SeekBar</string>
 </resources>

@@ -7,39 +7,51 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_pallete_containers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Android controls"
-        android:textSize="18sp"
+        android:text="@string/tv_pallete_containers"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSpinner"
+        android:id="@+id/btn_spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="onClick_spinner"
-        android:text="Spinner"
-        android:textAllCaps="true"
+        android:text="@string/btn_spinner"
+        android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_pallete_containers" />
 
     <Button
-        android:id="@+id/btnSeekBar"
+        android:id="@+id/btn_seek_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="onClick_seekBar"
-        android:text="SeekBar"
-        android:textAllCaps="true"
-        app:layout_constraintStart_toEndOf="@+id/btnSpinner"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:text="@string/btn_seek_bar"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pallete_widgets" />
+
+    <TextView
+        android:id="@+id/tv_pallete_widgets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_pallete_widgets"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spinner" />
 
 </android.support.constraint.ConstraintLayout>
